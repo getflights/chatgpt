@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "getflights-pro": {
+      "type": "http",
+      "url": "https://api.getflights.com/mcp",
+      "oauth": {
+        "client_id": "public_d6ed7680a6a1a346059e2d1a66b7fc0f3326a788892b104e2dc66469a92b9693",
+        "callback_port": 51720
+      }
+    }
+  }
+}

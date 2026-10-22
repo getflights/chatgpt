@@ -1,0 +1,27 @@
+{
+  "name": "getflights-pro",
+  "version": "1.4.4",
+  "description": "Ask questions about your Getflights bookings in plain language, straight from ChatGPT. Find a booking and see where its ticketing stands, keep track of your deadlines, start the day with an overview of departures, your wallet, open options and what is due, ask Getflights for an offer for a group, a charter or a private jet, find flights for up to 9 travellers and hold one as an option, and see how your company's events are going: who registered, who booked and what it adds up to.",
+  "author": {
+    "name": "Getflights"
+  },
+  "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Getflights Pro",
+    "shortDescription": "Your Getflights bookings, deadlines, group requests and flights, in plain language",
+    "longDescription": "Ask about your company's Getflights group bookings in plain language. Find a booking by reference, travel date or group size, and see where it stands, which flights the group takes, what it costs and what is due next. Keep track of your deadlines, start the day with an overview of departures, your wallet and open options, and follow your company's events. Ask Getflights for an offer for a group, a charter or a private jet; it is sent only after you confirm. Search flights for up to 9 travellers and hold the one you choose as an option, again only after you confirm; the tickets are bought in Getflights Pro. You only ever see your own account's bookings, and existing bookings can't be changed here.",
+    "developerName": "Getflights",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "What's the status of ABC123?",
+      "Find flights to Barcelona for 2 adults on 17 November",
+      "We need an offer for 25 people to Lisbon in March"
+    ]
+  }
+}

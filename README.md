@@ -7,9 +7,18 @@ account only, in the language you ask in.
 
 ## Getting started
 
-You need your **Getflights Pro login**, the one you use on the Getflights Pro site. Ask
-your Getflights contact how to add Getflights Pro to your ChatGPT workspace. The first time
-you use it, ChatGPT asks you to sign in with your Getflights Pro login.
+You need your **Getflights Pro login**, the one you use on the Getflights Pro site.
+
+Getflights Pro has been submitted to ChatGPT's plugin directory. Until it is listed there,
+add it as a marketplace:
+
+1. In ChatGPT, open **Plugins** and choose **Add marketplace**. Paste the address of this
+   repository: `https://github.com/getflights/chatgpt`.
+2. Install **Getflights Pro**.
+3. Start a new chat and ask something, for example *"What's on today?"*. The first time,
+   ChatGPT asks you to sign in with your Getflights Pro login.
+
+Not working? Ask your Getflights contact.
 
 Getflights Pro is also available for Claude, with the same skills, at
 `https://github.com/getflights/claude`.
