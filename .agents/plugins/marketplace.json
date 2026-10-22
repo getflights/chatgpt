@@ -1,0 +1,14 @@
+{
+  "name": "getflights",
+  "interface": {
+    "displayName": "Getflights"
+  },
+  "plugins": [
+    {
+      "name": "getflights-pro",
+      "source": { "source": "local", "path": "./getflights-pro" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
